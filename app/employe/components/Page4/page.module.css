@@ -1,0 +1,39 @@
+.page4{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 35px;
+}
+.right h3{
+    font-size: 38px;
+    width: 90%;
+    line-height: 1.3;
+}
+.right p{
+    font-size: 22px;
+    line-height: 1.5;
+    width: 90%;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,245 @@
+.main{
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    height: 100vh;
+    gap: 10px;
+    padding-left: 25px;
+}
+.left{
+    border: 1.5px solid rgb(214, 208, 208);
+    height: 95vh;
+    width: 45vw;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+    /* background-color: rebeccapurple; */
+}
+.right{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    width: 50vw;
+    /* background-color: red   ; */
+}
+
+.logo{
+    margin-left: 13px;
+    display: flex;
+    margin-bottom: 60px;
+    align-items: baseline;
+    height: 7vh;
+    width: 320px;
+    gap:5px;
+    /* background-color: red; */
+}
+.logo>img{
+    height:40px;
+    /* width: 81px; */
+}
+
+.logo>h1{
+    font-size: 25px;
+}   
+
+.left>h4{
+    font-size: 17px;
+    font-weight: 300;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+.left>form{
+    /* padding:50px 50px; */
+    gap: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* height: 40vh; */
+    width: 40vw;
+    /* background-color: green; */
+}
+.first{
+    border: 1.5px solid rgb(205, 201, 201);
+
+    padding-left: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width:544px;
+    /* background-color: red; */
+}
+.first>input{
+    /* background-color: red; */
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.first>i{
+    font-size: 18px;
+}
+.second{
+    border: 1.5px solid rgb(205, 201, 201);
+    padding-left: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width:544px;
+    /* background-color: red; */
+}
+.second>input{
+
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.second>i{
+    font-size: 18px;
+}
+.checkbox{
+    display: flex;
+    /* justify-content: center; */
+    
+}
+.left>form>button{
+    height: 70px;
+    font-size: 15px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    width:544px;
+    cursor: pointer;
+    background-color: #0084ff;
+}
+.left>form>h4>span{
+    font-weight: 300;
+    color:#0084ff;
+}
+.one{
+    margin-top: 40px;
+    padding-left: 20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    gap: 30px;
+    /* background-color: green; */
+}
+
+.one1{
+
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    width: 80%;
+    height: 80px;
+    /* background-color:yellow; */
+}
+
+.one1>img{
+    height: 55px;
+}
+.one2{
+
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    width: 80%;
+    height: 80px;
+    /* background-color:yellow; */
+}
+
+.one2>img{
+    height: 50px;
+}
+
+.one3{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    width: 80%;
+    height: 80px;
+    /* background-color:yellow; */
+}
+
+.one3>img{
+    height: 45px;
+}
+
+.one4{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    width: 80%;
+    height: 80px;
+    /* background-color:yellow; */
+}
+
+.one4>img{
+    height: 75px;
+}
+
+.one5{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    width: 80%;
+    height: 80px;
+    /* background-color:yellow; */
+}
+
+.mid1{
+    border: 1.5px solid rgb(205, 201, 201);
+
+    padding-left: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width:544px;
+    /* background-color: red; */
+}
+.mid1>input{
+    /* background-color: red; */
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.country{
+    border: 1.5px solid rgb(205, 201, 201);
+
+    padding-left: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width:544px;
+    /* background-color: red; */
+}
+.country>input{
+    /* background-color: red; */
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.mid{
+    display: flex;
+    gap: 20px;
+    height: 60px;
+    width: 544px;
+    /* background-color: red; */
+}
